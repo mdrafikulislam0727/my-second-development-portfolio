@@ -95,7 +95,6 @@ body {
     display: flex;
     gap: 73px;
     margin-top: 85px;
-
 }
 
 .qulic-list-img {
@@ -109,28 +108,23 @@ body {
     height: 342px;
     border-radius: 8px;
 }
-
 .qulic-list-content {
     width: 50%;
     height: 304px;
     margin-top: 312px;
 }
-
 .qykuc,
 .of,
 .featurs {
     font-size: 45px;
     line-height: 53px;
 }
-
 .qykuc {
     color: #727272;
 }
-
 .of {
     color: #131313;
 }
-
 .featurs {
     color: #FF900E;
 }
@@ -141,7 +135,6 @@ body {
     color: #727272;
     margin-top: 24px;
 }
-
 .section-top-button {
     width: 180px;
     height: 64px;
@@ -151,4 +144,20 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 53px;
+}
+/* Features part styles */
+.feature-continear{
+    width:100%;
+    max-width: 1250px;
+    margin:0 auto;
+    display: flex;
+    gap:146px;
+    margin-top: 116px;
+
+}
+.feature-content{
+    width:50%;
+}
+.feature-img{
+    width:50%;
 }
