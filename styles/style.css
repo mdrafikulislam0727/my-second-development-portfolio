@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header parte styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header-menu-part {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    margin-top: 50px;
+}
+
+.head-title {
+    font-size: 45px;
+    color: #131313;
+}
+
+.header-menu {
+    margin-top: 30px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 40px;
+    color: #424242;
+    font-size: 18px;
+}
+
+/* header banear styles */
+.header-content {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+
+.banear-title {
+    color: #131313;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.banear-discreption {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.praymary-button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-left: 260px;
+}
+
+.header-banear-img {
+    width: 100%;
+    max-width: 1250px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* main sections styles */
+.top-quick-continear {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 73px;
+    margin-top: 85px;
+
+}
+
+.qulic-list-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.sengal-img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.qulic-list-content {
+    width: 50%;
+    height: 304px;
+    margin-top: 312px;
+}
+
+.qykuc,
+.of,
+.featurs {
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.qykuc {
+    color: #727272;
+}
+
+.of {
+    color: #131313;
+}
+
+.featurs {
+    color: #FF900E;
+}
+
+.top-section-discreption {
+    font-weight: bold;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.section-top-button {
+    width: 180px;
+    height: 64px;
+    border: 1px solid #FF900E;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 53px;
+}
