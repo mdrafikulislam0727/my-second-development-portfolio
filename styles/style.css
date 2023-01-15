@@ -374,6 +374,7 @@ body {
     padding: 30px 30px 30px 30px;
     margin: 0 auto;
     margin-bottom: 200px;
+    margin-top:130px;
 }
 
 .footer-discreption {
@@ -381,3 +382,80 @@ body {
     font-size: 20px;
     color: #424242;
 }
+/* responsibe  */
+
+@media only screen and (max-width:680px) {
+    .header-menu-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul li{
+        padding:10px;
+    }
+    .head-title{
+        font-size: 40px;
+    }
+    .header-content{
+        width:auto;
+        margin-top: 25px;
+    }
+    .banear-title{
+        font-size: 36px;
+    }
+    .header-banear img{
+        width:100%;
+        
+    }
+    .header-banear-img{
+        height: 210px;
+    }
+    .praymary-button{
+        margin-left: 95px;
+    }
+    .qulic-list-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .top-quick-continear{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .qulic-list-content{
+        margin-top: 0;
+        height: 320px;
+    }
+    .feature-continear{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 225px;
+    }
+    .feauter-title{
+        font-size: 40px;
+    }
+    .sengal-feature-content{
+        width: 425px;
+    }
+    .feature-img img{
+        width:400px;
+    }
+    .feature-img-button{
+        margin-left: 28px;
+        margin-top: 30px;
+    }
+    .some-facts-content{
+        width:350px;
+    }
+    .bloge-content, .sponser-content, .sesction-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponspors-content{
+        width: 390px;
+    }
+}
+
+
