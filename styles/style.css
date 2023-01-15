@@ -57,6 +57,8 @@ body {
     color: #131313;
     font-size: 64px;
     line-height: 75px;
+    font-weight: 700;
+    text-align: center;
 
 }
 
@@ -108,23 +110,28 @@ body {
     height: 342px;
     border-radius: 8px;
 }
+
 .qulic-list-content {
     width: 50%;
     height: 304px;
     margin-top: 312px;
 }
+
 .qykuc,
 .of,
 .featurs {
     font-size: 45px;
     line-height: 53px;
 }
+
 .qykuc {
     color: #727272;
 }
+
 .of {
     color: #131313;
 }
+
 .featurs {
     color: #FF900E;
 }
@@ -135,6 +142,7 @@ body {
     color: #727272;
     margin-top: 24px;
 }
+
 .section-top-button {
     width: 180px;
     height: 64px;
@@ -145,19 +153,231 @@ body {
     font-size: 20px;
     margin-top: 53px;
 }
+
 /* Features part styles */
-.feature-continear{
-    width:100%;
+.feature-continear {
+    width: 100%;
     max-width: 1250px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
-    gap:146px;
+    gap: 146px;
     margin-top: 116px;
 
 }
-.feature-content{
-    width:50%;
+
+.feature-content {
+    width: 50%;
 }
-.feature-img{
-    width:50%;
+
+.feature-img {
+    width: 50%;
+}
+
+.feauter-title {
+    margin-bottom: 14px;
+    width: 468px;
+    height: 106px;
+    font-size: 45px;
+    width: 468px;
+    color: #131313;
+    border-left: 4px solid #FF900E;
+}
+
+.sengal-feature-content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 586px;
+    height: 171px;
+    padding: 30px 40px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+}
+
+.sempal-discreption {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.feature-img-button {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.btn-title {
+    font-size: 65px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn-descreption {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* Some facts sections styles */
+.some-facts-section-continear {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.some-facts-content {
+    width: 542px;
+    height: 52px;
+    margin-bottom: 100px;
+}
+
+.some-facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some-facts-discreption {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.bloge-content {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.blog-info {
+    width: 215px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 68px;
+    transition: width 10s ease 1s, height 10s, transform 1s;
+
+}
+
+.blog-info:hover {
+    width: 215px;
+    height: 241.83px;
+    transform: rotate(360deg);
+}
+
+/* Our Sponspors Sections styles */
+.Sponspors-continear {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.sponspors-content {
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponspors-doscreption {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+
+.sponser-content {
+    display: flex;
+    gap: 120px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.sengal-sponsar {
+    width: 165.83px;
+    height: 50px;
+}
+
+/* extara sections styles */
+.extara-sections {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.sesction-content{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.content {
+
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    padding: 10px 10px 10px 12px;
+    margin-bottom: 20px;
+
+}
+
+.content img {
+    width: 300px;
+    height: 256px;
+}
+.extara-info-title{
+    
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 15px;
+}
+.info-doloar{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    margin-top: 10px;
+}
+.sorce-icons{
+    display: flex;
+    gap:15px;
+}
+.sorce-icons li{
+    list-style: none;
+    padding:10px 0;
+    color:#FF900E;
+}
+
+/* footer sections styles */
+.footer {
+    width: 100%;
+    max-width: 1250px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.footer-discreption {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
 }
